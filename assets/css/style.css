@@ -18,11 +18,17 @@ body, .bg-gold{
 .bg-gold{
     /* background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
     radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%); */
-    background: radial-gradient(circle at 85.4% 50.8%, rgb(14, 72, 222) 0%, rgb(3, 22, 65) 74.2%);
+    /* background: radial-gradient(circle at 85.4% 50.8%, rgb(14, 72, 222) 0%, rgb(3, 22, 65) 74.2%); */
+    /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,45,121,1) 51%, rgba(0,82,255,1) 100%); */
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,45,121,1) 69%, rgba(0,82,255,1) 100%);
 }
 
 
- .golden-btn + .golden-btn { margin-top: 1em; }
+ .golden-btn + .golden-btn { margin-top: 1em;
+
+}
   
   .golden-btn {
     display: inline-block;
@@ -395,4 +401,29 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   background-position: center;
   background-size: 100%;
   background-image: url("https://cdn3d.iconscout.com/3d/premium/thumb/menu-9167537-7471111.png");
+}
+
+.drop_1{
+  background-color: #0000FF !important;
+}
+
+.max_h_w{
+  /* margin-top: 50px; */
+  max-width: 300px;
+  max-height: auto;
+  margin: 25px auto ;
+  border-radius: 30px;
+}
+.dropdown-menu {
+  background-color: #0000FF !important;
+}
+
+.btn_unset{
+  all: unset;
+}
+
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: white !important;
+  background-color: rgb(40, 106, 173) !important;
 }
